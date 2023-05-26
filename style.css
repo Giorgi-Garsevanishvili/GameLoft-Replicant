@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 62px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 37px;
+}
+
+.main-logo {
+  height: 40px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.facebook-button,
+.instagram-logo,
+.linkedin-logo,
+.tweeter-logo,
+.youtube-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook-button,
+.instagram-button,
+.linkedin-button,
+.tweeter-button,
+.youtube-button {
+  margin: 2px;
+  border-style: none;
+}
+
+.search {
+  border-style: none;
+}
+
+.search-instuments {
+  border-style: none;
+}
+
+
+
