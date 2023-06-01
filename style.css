@@ -4,7 +4,7 @@
 }
 
 header {
-  position: fixed;
+  position: sticky;
   display: flex;
   justify-content: space-between;
   width: 100%;
